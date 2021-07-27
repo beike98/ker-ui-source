@@ -5,7 +5,6 @@ import { createWebHashHistory, createRouter } from "vue-router";
 import Home from './views/Home.vue'
 import Doc from './views/Doc.vue'
 
-//路由配置
 const history = createWebHashHistory();
 const router = createRouter({
   history,
