@@ -24,10 +24,10 @@
     </div>
   </div>
 </template>
-<script lang="ts">var selectedItem;
+<script lang="ts">
 
 import Tab from "./Tab.vue";
-import {computed, onMounted, ref, watchEffect} from "vue";
+import {onMounted, ref, watchEffect} from "vue";
 
 export default {
   props: {
