@@ -4,7 +4,7 @@
       <Topnav/>
       <div class="banner">
         <h1>Ker UI</h1>
-        <h2>易上手开箱即用的 Web UI 组件库</h2>
+        <h2>开箱即用的 Web UI 组件库</h2>
         <p class="actions">
           <a href="https://github.com">GitHub</a>
           <router-link to="/doc">开始</router-link>
@@ -15,17 +15,17 @@
       <ul>
         <li>
           <svg>
+            <use xlink:href="#icon-ts"></use>
+          </svg>
+          <h3>基于 TypeScript </h3>
+          <p>源代码采用 TypeScript 书写</p>
+        </li>
+        <li>
+          <svg>
             <use xlink:href="#icon-vue"></use>
           </svg>
           <h3>基于 Vue 3</h3>
           <p>骄傲地使用了 Vue 3 Composition API</p>
-        </li>
-        <li>
-          <svg>
-            <use xlink:href="#icon-ts"></use>
-          </svg>
-          <h3>基于 TypeScript </h3>
-          <p>源代码采用 TypeScript 书写（非严格检查）</p>
         </li>
         <li>
           <svg>

@@ -74,15 +74,22 @@ aside {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 70px 16px 16px;
   height: 100%;
+  padding: 70px 0 16px;
   z-index: 2;
   > h2 {
     margin-bottom: 4px;
+    padding: 0 16px;
   }
   > ol {
     > li {
-      padding: 4px 0;
+      >a{
+        padding: 4px 16px;
+        display: block;
+      }
+      .router-link-active{
+        background: white;
+      }
     }
   }
 }
