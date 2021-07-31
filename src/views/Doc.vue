@@ -69,7 +69,7 @@ export default {
   }
 }
 aside {
-  background: #e1e3e9;
+  background: #f8f9fa;
   width: 150px;
   position: fixed;
   top: 0;
@@ -83,12 +83,12 @@ aside {
   }
   > ol {
     > li {
-      >a{
+      > a {
         padding: 4px 16px;
         display: block;
       }
-      .router-link-active{
-        background: white;
+      .router-link-active {
+        background: #dfe1ec;
       }
     }
   }
