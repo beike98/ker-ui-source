@@ -27,6 +27,7 @@ $h2: $h - 4px;
   height: $h;
   width: $h * 2;
   border: none;
+  cursor: pointer;
   background: #bfbfbf;
   border-radius: $h/2;
   position: relative;
