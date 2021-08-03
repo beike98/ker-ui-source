@@ -1,12 +1,11 @@
 <template>
   <div>
     <div class="topnavAndBanner">
-      <Topnav/>
       <div class="banner">
         <h1>Ker UI</h1>
         <h2>开箱即用的 Web UI 组件库</h2>
         <p class="actions">
-          <a href="https://github.com">GitHub</a>
+          <a href="https://github.com/beike98/ker-ui-source">GitHub</a>
           <router-link to="/doc">开始</router-link>
         </p>
       </div>
@@ -47,7 +46,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .topnavAndBanner {
-  background: #dfe1ed;
+  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
   clip-path: ellipse(80% 60% at 50% 40%);
 }
 

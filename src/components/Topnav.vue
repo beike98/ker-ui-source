@@ -1,11 +1,17 @@
 <template>
   <div class="topnav">
-    <router-link to="/" class="logo"><svg class="icon">
-      <use xlink:href="#icon-beike"></use>
-    </svg></router-link>
+    <router-link to="/" class="logo">
+      <svg class="icon">
+        <use xlink:href="#icon-beike"></use>
+      </svg>
+    </router-link>
     <ul class="menu">
-      <li><router-link to="/">首页</router-link></li>
-      <li><router-link to="/doc">文档</router-link></li>
+      <li>
+        <router-link to="/">首页</router-link>
+      </li>
+      <li>
+        <router-link to="/doc">文档</router-link>
+      </li>
     </ul>
     <svg v-if="toggleMenuButtonVisible" class="toggleAside" @click="toggleMenu">
       <use xlink:href="#icon-menu"></use>
@@ -13,12 +19,13 @@
   </div>
 </template>
 <script lang="ts">
-import { inject, Ref } from "vue";
+import {inject, Ref} from "vue";
+
 export default {
-  props:{
-    toggleMenuButtonVisible:{
-      type:Boolean,
-      default:false
+  props: {
+    toggleMenuButtonVisible: {
+      type: Boolean,
+      default: false
     }
   },
   setup() {
@@ -26,7 +33,7 @@ export default {
     const toggleMenu = () => {
       menuVisible.value = !menuVisible.value;
     };
-    return { toggleMenu };
+    return {toggleMenu};
   },
 };
 </script>
@@ -41,23 +48,30 @@ export default {
   z-index: 10;
   justify-content: center;
   align-items: center;
-  background: #dfe1ed;
+  background: #ffffff;
+  box-shadow: 0 5px 5px rgb(51 51 51 / 10%);
+
   > .logo {
-    max-width: 6em;
+    max-width: 10em;
     margin-right: auto;
+    margin-left: 20px;
+
     > svg {
       width: 38px;
       height: 38px;
     }
   }
+
   > .menu {
     display: flex;
     white-space: nowrap;
     flex-wrap: nowrap;
+
     > li {
       margin: 0 1em;
     }
   }
+
   > .toggleAside {
     width: 32px;
     height: 32px;
@@ -68,6 +82,7 @@ export default {
     display: none;
     z-index: 3;
   }
+
   @media (max-width: 500px) {
     > .menu {
       display: none;
@@ -79,11 +94,14 @@ export default {
       display: inline-block;
     }
   }
-.icon {
-  width: 1em; height: 1em;
-  vertical-align: -0.15em;
-  fill: currentColor;
-  overflow: hidden;
-}
+
+  .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+
 }
 </style>
