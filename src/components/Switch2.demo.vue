@@ -1,5 +1,5 @@
 <demo>
-支持 disabled
+禁用按钮
 </demo>
 <template>
   <Switch v-model:value="bool" disabled />
