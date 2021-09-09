@@ -9,7 +9,7 @@ import Demo from './Demo.vue';
 import Dialog1Demo from './Dialog1.demo.vue';
 import Dialog2Demo from './Dialog2.demo.vue';
 import {ref} from "vue";
-import tabHeader from "./tabHeader.ts"
+import tabHeader from "./tabHeader"
 import Attr from "./Attr.vue"
 export default {
   components: {Demo,Attr},

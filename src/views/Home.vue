@@ -38,10 +38,9 @@
   </div>
 </template>
 <script lang="ts">
-import Topnav from "../components/Topnav.vue";
-
+import Topnav from "../components/TopNav.vue";
 export default {
-  components: {Topnav},
+  components: {Topnav}
 };
 </script>
 <style lang="scss" scoped>

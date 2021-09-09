@@ -9,7 +9,7 @@
 <script lang="ts">
 import Switch1Demo from './Switch1.demo.vue'
 import Switch2Demo from './Switch2.demo.vue'
-import tabHeader from './tabHeader.ts'
+import tabHeader from './tabHeader'
 import Demo from './Demo.vue'
 import Attr from './Attr.vue'
 import {ref} from "vue";

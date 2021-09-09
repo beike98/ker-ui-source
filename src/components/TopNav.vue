@@ -7,10 +7,10 @@
     </router-link>
     <ul class="menu">
       <li>
-        <router-link to="/">首页</router-link>
+        <a href="https://github.com/beike98/ker-ui-source">GitHub</a>
       </li>
       <li>
-        <router-link to="/doc">文档</router-link>
+        <router-link to="/">首页</router-link>
       </li>
     </ul>
     <svg v-if="toggleMenuButtonVisible" class="toggleAside" @click="toggleMenu">

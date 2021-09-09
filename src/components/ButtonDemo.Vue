@@ -18,7 +18,7 @@ import Button3Demo from "./Button3.demo.vue";
 import Button4Demo from "./Button4.demo.vue";
 import Button5Demo from "./Button5.demo.vue";
 import {ref} from "vue";
-import tabHeader from "./tabHeader.ts"
+import tabHeader from "./tabHeader"
 import Attr from "./Attr.vue"
 
 export default {

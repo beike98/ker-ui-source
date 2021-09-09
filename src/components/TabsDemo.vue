@@ -7,7 +7,7 @@
 <script lang="ts">
 import Demo from './Demo.vue'
 import Tabs1Demo from './Tabs1.demo.vue'
-import tabHeader from "./tabHeader.ts"
+import tabHeader from "./tabHeader"
 import Attr from "./Attr.vue"
 import {ref} from "vue";
 

@@ -7,21 +7,23 @@
         <ol>
           <li>
             <router-link to="/doc/intro">介绍</router-link>
+<!--            <router-link to="/doc/install">安装</router-link>-->
+<!--            <router-link to="/doc/get-started">开始使用</router-link>-->
           </li>
         </ol>
         <h2>组件列表</h2>
         <ol>
           <li>
-            <router-link to="/doc/switch">Switch组件</router-link>
+            <router-link to="/doc/switch">Switch 开关</router-link>
           </li>
           <li>
-            <router-link to="/doc/button">Button组件</router-link>
+            <router-link to="/doc/button">Button 按钮</router-link>
           </li>
           <li>
-            <router-link to="/doc/dialog">Dialog组件</router-link>
+            <router-link to="/doc/dialog">Dialog 对话框</router-link>
           </li>
           <li>
-            <router-link to="/doc/tabs">Tabs组件</router-link>
+            <router-link to="/doc/tabs">Tabs 标签栏</router-link>
           </li>
         </ol>
       </aside>
@@ -33,7 +35,7 @@
 </template>
 <script lang="ts">
 import {inject, Ref} from "vue";
-import Topnav from "../components/Topnav.vue";
+import Topnav from "../components/TopNav.vue";
 
 export default {
   components: {Topnav},
